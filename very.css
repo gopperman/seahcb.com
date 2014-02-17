@@ -1,14 +1,22 @@
 /* Wow content blocks */
 html {
+	width: 100%;
 	overflow-x: hidden;
 }
 body {
 	margin: 0;
 	color: #333;
-	padding: 20px;
+	width: 100%;
 	overflow-x: hidden;
 }
-
+#view {
+	position: absolute;
+	left: 0;
+	right: 0;
+	padding: 20px;
+	width: 100%;
+	overflow-x: hidden;
+}
 header {
 	position: relative;
 	display: block;
