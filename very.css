@@ -10,11 +10,9 @@ body {
 	overflow-x: hidden;
 }
 #view {
-	position: absolute;
-	left: 0;
-	right: 0;
-	padding: 20px;
-	width: 100%;
+	position: relative;
+	padding: 20px 5%;
+	width: 90%;
 	overflow-x: hidden;
 }
 header {
