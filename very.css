@@ -1,0 +1,202 @@
+/* Wow content blocks */
+html {
+	overflow-x: hidden;
+}
+body {
+	margin: 0;
+	color: #333;
+	padding: 20px;
+	overflow-x: hidden;
+}
+
+header {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	max-width: 720px;
+}
+main {
+	display: block;
+	margin: 0 auto;
+	max-width: 720px;
+	position: relative;
+	z-index: 1;
+}
+footer {
+	display: block;
+	margin: 60px auto 0;
+        max-width: 720px;
+	position: relative;
+	z-index: 1;
+}
+/* Such text styling */
+h1, h2, h3, h4 {font-weight: normal;}
+h1 {
+	font-size: 58px;
+	margin-bottom: 0;
+}
+h2 {
+	margin-bottom: 60px;
+}
+h3 {
+	font-size: 35px;
+	margin: 60px 0 0 0;
+}
+h4 {
+	margin-bottom: 21px;
+}
+h2, h4 {
+	font-size: 21px;
+	margin-top: 0;
+}
+p {
+	font-size: 18px;
+	line-height: 34px;
+}
+.boring h1, .boring h4 {
+	font-family: 'AzoSans-Thin', sans-serif;
+	font-weight: 300;
+}
+.boring h2, .boring h3 {
+	font-family:  'MayonezlBold', serif;
+	
+}
+.boring p {
+	font-family: 'AzoSans-Regular', sans-serif;
+	font-weight: 300;
+}
+
+.boring i p {
+	font-family: 'AzoSans-LightItalic', sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+.boring .dogeonly, .boring .wow {display: none;}
+
+a, a:visited {
+	color: #BA0322; 
+	text-decoration: none;
+	cursor: hand;
+	cursor: pointer;
+}
+ul {padding: 0;}
+li {list-style-type: none; position: relative;}
+.green {color: #0f0;}
+.red {color: #f06;}
+.yellow {color: #fc0}
+.blue {color: #009999;}
+.purple {color: #8400c7;}
+.fuchsia {color: #f06;}
+.lightpurp {color: #cb2cff;}
+span {display: none;}
+/* very doge */
+.doge .boringonly {display: none;}
+.dogetoggle {
+	position: absolute;
+	top: 0;
+	right: -130px;
+}
+.boringtoggle {
+	position: absolute;
+	top: 1em;
+	right: 20px; 
+	z-index: 1;
+}
+.doge .dogetoggle {
+	display: none;
+}
+.doge {
+	position: relative;
+	text-transform: lowercase;
+	font-family: 'Comic Sans MS', 'ComicSans';
+	color: #fff;
+	background: rgba(255, 174, 194, 1);
+	background: -moz-linear-gradient( top ,
+          rgba(255, 102, 102, 1) 0%,
+          rgba(128, 130, 255, 1) 15%,
+          rgba(0, 255, 0, 1) 30%,
+          rgba(0, 255, 255, 1) 50%,
+          rgba(0, 0, 255, 1) 65%,
+          rgba(255, 0, 255, 1) 80%,
+          rgba(255, 0, 0, 1) 100%);
+	background: -webkit-gradient(linear,  left top,  left bottom, 
+          color-stop(0%, rgba(255, 102, 102, 1)), 
+          color-stop(25%, rgba(128, 130, 255, 1)),
+          color-stop(50%, rgba(103, 255, 255, 1)),
+          color-stop(70%, rgba(134, 255, 126, 1)),          
+          color-stop(80%, rgba(255, 255, 107, 1)),          
+          color-stop(90%, rgba(255, 235, 124, 1)),          
+	  color-stop(100%, rgba(255, 174, 194, 1)));
+	height: 100%;
+	/*background-attachment: fixed;*/
+}
+.doge:after {
+	background-image: url('/img/colorshibe.png');
+	content: "";
+	width: 418px;
+	height: 420px;
+	position: absolute;
+	bottom: 0px;
+	left: -50px;
+	z-index: 0;
+}
+.doge:before {
+	background-image: url('/img/topdoge.png');
+	width: 250px;
+	height: 217px;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 0;
+}
+
+.doge main {
+	text-align: center;
+}
+.doge header {
+	max-width: 1000px;
+}
+.doge main p, .doge main h4 {display: none;}
+
+.doge h1 {
+	text-align: left;
+	font-size: 78px;
+}
+.doge h1:before {
+	content: "wow much designer";
+	display: block;
+	color: #222;
+	font-size: 40px;
+}
+.doge h3 {margin-top: 120px;}
+.wow {
+	position: absolute;
+	display: inline;
+	font-size: 16px;
+}
+.doge span {
+}
+.doge a, .doge a:visited {
+	color: blue; 
+	text-decoration: underline;
+}
+.doge footer {
+	text-align: center;
+}
+#wow1 {
+	position: absolute;
+	top: 65px;
+	left: 60px;
+}
+/*** Webfonts ***/
+@font-face {font-family: 'AzoSans-LightItalic';src: url('webfonts/29F20F_0_0.eot');src: url('webfonts/29F20F_0_0.eot?#iefix') 
+format('embedded-opentype'),url('webfonts/29F20F_0_0.woff') format('woff'),url('webfonts/29F20F_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AzoSans-Regular';src: url('webfonts/29F20F_1_0.eot');src: url('webfonts/29F20F_1_0.eot?#iefix') 
+format('embedded-opentype'),url('webfonts/29F20F_1_0.woff') format('woff'),url('webfonts/29F20F_1_0.ttf') format('truetype');}
+@font-face {font-family: 'AzoSans-Thin';src: url('webfonts/29F20F_2_0.eot');src: url('webfonts/29F20F_2_0.eot?#iefix') 
+format('embedded-opentype'),url('webfonts/29F20F_2_0.woff') format('woff'),url('webfonts/29F20F_2_0.ttf') format('truetype');}
+@font-face {font-family: 'MayonezlBold';src: url('webfonts/29F232_0_0.eot');src: url('webfonts/29F232_0_0.eot?#iefix') 
+format('embedded-opentype'),url('webfonts/29F232_0_0.woff') format('woff'),url('webfonts/29F232_0_0.ttf') format('truetype');}
+@font-face {font-family: 'ComicSans';src: url('webfonts/29F2DB_0_0.eot');src: url('webfonts/29F2DB_0_0.eot?#iefix') 
+format('embedded-opentype'),url('webfonts/29F2DB_0_0.woff') format('woff'),url('webfonts/29F2DB_0_0.ttf') format('truetype');}
