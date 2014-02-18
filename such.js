@@ -8,12 +8,7 @@ jQuery('document').ready(function($) {
 		}
 	);
 	$('.dogetoggle').delay(3000).animate({right:"-40px"}, 1000);
-	$('.dogetoggle').click(function() {
-		$('body').removeClass('boring');
-		$('body').addClass('doge');
-	});
-	$('.boringtoggle').click(function() {
-		$('body').removeClass('doge');
-		$('body').addClass('boring');
+	$('.dogetoggle, .boringtoggle').click(function() {
+		$('body').toggleClass('boring doge');
 	});
 });
