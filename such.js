@@ -6,12 +6,12 @@ jQuery('document').ready(function($) {
 			$('.doge header').hover(
 				function() {
 					$('header .wow').each(function(index) {
-						$(this).delay(600*index).fadeIn(200);
+						$(this).stop(true, true).delay(600*index).fadeIn(200);
 					});
 				},
 				function() {
 					$('header .wow').each(function(index) {
-						$(this).delay(100*index).fadeOut(100);
+						$(this).stop(true, true).delay(100*index).fadeOut(100);
 					});
 				}
 			);

@@ -59,6 +59,7 @@ p {
 	font-size: 18px;
 	line-height: 34px;
 }
+.boring header .wow {opacity: 0;}
 .boring h1, .boring h4 {
 	font-family: 'AzoSans-Thin', sans-serif;
 	font-weight: 300;
@@ -72,11 +73,6 @@ p {
 	font-weight: 300;
 }
 
-.boring i p {
-	font-family: 'AzoSans-LightItalic', sans-serif;
-	font-weight: 300;
-	font-style: normal;
-}
 .boring .dogeonly, .boring .wow {display: none;}
 
 a, a:visited {
@@ -181,6 +177,7 @@ span {display: none;}
 	display: inline;
 	font-size: 16px;
 }
+
 header .wow {display: none;}
 .doge span {
 }
@@ -203,7 +200,9 @@ header .wow {display: none;}
 #wow8 {left: 0%; top: 120px;}
 #wow9 {right: 5%; bottom: 15px;}
 
+.hidden-xs {display: none;}
 @media all and (min-width: 480px) {
+	.hidden-xs {display: block;}
 	.doge h1:before {
 		font-size: 40px;
 	}
